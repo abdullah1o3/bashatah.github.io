@@ -38,6 +38,17 @@
       background: url("../img/portrait_small.jpg");
     }
   }
+  .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "info";
+    grid-template-columns: 1fr;
+  }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @include mediaSm {
 }
